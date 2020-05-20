@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Invoice</title>
+    <link rel="stylesheet" type="text/css" href="invoice.css">
+</head>
+
+<body>
+    <table>
+        <caption>Your Invoice</caption>
+        <thead>
+            <tr>
+                <th colspan="3">Invoice #32846</th>
+                <th>19 May 2020</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p class="sub-header">Pay To:</p>
+                    <p>The Tech Park</p>
+                    <p>123 A Made Up Street</p>
+                    <p>Burnaby BC, V5B 2T2</p>
+                </td>
+                <td colspan="2">  
+                    <p class="sub-header">Customer:</p>
+                    <p>John Doe</p>
+                    <p>345 Another Made Up Street</p>
+                    <p>Vancouver BC, V5A 0C2</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="sub-header, bkground">Name/Description</td>
+                <td class="sub-header, bkground">Qty</td>
+                <td class="sub-header, bkground">MRP</td>
+                <td class="sub-header, bkground">Amount</td>
+            </tr>
+            <tr>
+                <td>Biryani</td>
+                <td>3</td>
+                <td>400</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>Banana Smoothie</td>
+                <td>5</td>
+                <td>500</td>
+                <td>1800</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3" class="subtotal">Subtotal:</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="subtotal">Tax: </td>
+                <td>10%</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="col-span-3, subtotal">Grand Total:</td>
+                <td>300</td>
+            </tr>
+            </tfoot>
+    </table>
+</body>
+
+</html>

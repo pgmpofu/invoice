@@ -1,0 +1,39 @@
+.col-span-3 {
+    column-span: 3;
+}
+
+.subtotal {
+    font-weight: bold;
+}
+
+.col-span-2 {
+    column-span: 2;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 16px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 32px;
+}
+
+.sub-header {
+    font-weight: bold;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+.bkground {
+    background-color: cornflowerblue;
+}
